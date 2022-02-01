@@ -10,8 +10,13 @@ import java.util.ArrayList;
 import java.util.Random;
 import javax.swing.Timer;
 import acm.graphics.GLabel;
+import java.awt.event.MouseEvent;
+import java.awt.Color;
+import acm.graphics.GImage;
+import acm.graphics.GObject;
 
 public class GamePane extends GraphicsPane implements ActionListener, KeyListener {
+	
 	private MainApplication program; // you will use program to get access to
 										// all of the GraphicsProgram calls
 	
@@ -31,7 +36,12 @@ public class GamePane extends GraphicsPane implements ActionListener, KeyListene
 	private GLabel currentScore = new GLabel ("Score: " + currScore);
 	Random r = new Random();
 	private Timer someTimer;
- 
+   
+	//new botton
+	//private GButton play;
+	
+	
+	
 	private Spaceship ship;
 	Rectangle bullet, spaceshipHitbox;
 	double dx = 0, x = 0, y = 0, velx = 0, vely = 0;
@@ -39,6 +49,7 @@ public class GamePane extends GraphicsPane implements ActionListener, KeyListene
 	private Graphics shoot;
 
 	public static final int HITBOX_WIDTH = 2;
+	
 	
 	public GamePane(MainApplication app) {
 		this.program = app;
@@ -48,6 +59,9 @@ public class GamePane extends GraphicsPane implements ActionListener, KeyListene
 		someTimer.start();
 		addKeyListener(this);
 		setFocusTraversalKeysEnabled(false);
+		//new botton
+		//play = new GButton("Speed up for master!", program.WINDOW_WIDTH/4, program.WINDOW_HEIGHT/2 - 100, program.BUTTON_WIDTH, program.BUTTON_HEIGHT);
+		//play.setFillColor(Color.GREEN);
 	}
 	
 	private void setFocusTraversalKeysEnabled(boolean b) {} // TODO Auto-generated method stub

@@ -290,7 +290,19 @@ public class GamePane extends GraphicsPane implements ActionListener, KeyListene
 			 */
 		}
 	}
-	
+	//private void btnAClicked(){};
+	//private void btnBClicked(){};
+	//private void btnCClicked(){};
+	//JButton c = new JButton("c");
+    //c.addActionListener(new ActionListener() {
+    //    public void actionPerformed(ActionEvent e) {
+    //       btnCClicked();
+    //       btnAClicked(); 
+    //       btnBClicked();              
+//
+  //      }
+  //  });
+
 	// botton click
 		//public static void main(String[] args) {
 
@@ -312,12 +324,7 @@ public class GamePane extends GraphicsPane implements ActionListener, KeyListene
 	//    }
 	// });
 
-	// and also in your c-Button
-	//JButton c = new JButton("c");
-	//c.addActionListener(new ActionListener() {
-	//   public void actionPerformed(ActionEvent e) {
-	//          // Action of c is Here
-	  //        methodForA(); 
+	
  // }
 }
 	

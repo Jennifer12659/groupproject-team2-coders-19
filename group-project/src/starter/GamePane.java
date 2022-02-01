@@ -302,4 +302,23 @@ public class GamePane extends GraphicsPane implements ActionListener, KeyListene
 	     //       }
 	     //   });
 	
+	// one bottom for multi click
+	//class ActionA implements ActionListener{
+   // public void actionPerformed(ActionEvent e) {
+    //    JButton a = new JButton("a");
+	//a.addActionListener(new ActionListener() {
+	 //   public void actionPerformed(ActionEvent e) {
+	 //       methodForA();
+	//    }
+	// });
+
+	// and also in your c-Button
+	//JButton c = new JButton("c");
+	//c.addActionListener(new ActionListener() {
+	//   public void actionPerformed(ActionEvent e) {
+	//          // Action of c is Here
+	  //        methodForA(); 
+ // }
+}
+	
 }

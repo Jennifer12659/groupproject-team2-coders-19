@@ -97,6 +97,7 @@ public class GamePane extends GraphicsPane implements ActionListener, KeyListene
 			  } 
 		  } return false; 
 	}
+	
 
 	public void actionPerformed(ActionEvent e) {
 		x += velx;
@@ -289,5 +290,16 @@ public class GamePane extends GraphicsPane implements ActionListener, KeyListene
 			 */
 		}
 	}
+	
+	// botton click
+		//public static void main(String[] args) {
+
+	     //   
+	     //   button.addActionListener(new ActionListener() {
+	    //        @Override
+	     //       public void actionPerformed(ActionEvent e) {
+	     //           play.showMessageDialog(this, textBox.getText());
+	     //       }
+	     //   });
 	
 }

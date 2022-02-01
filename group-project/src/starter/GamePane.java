@@ -299,11 +299,11 @@ public class GamePane extends GraphicsPane implements ActionListener, KeyListene
     //       btnCClicked();
     //       btnAClicked(); 
     //       btnBClicked();              
-//
+    //
   //      }
   //  });
 
-	// botton click
+	// bottom click
 		//public static void main(String[] args) {
 
 	     //   
@@ -320,10 +320,20 @@ public class GamePane extends GraphicsPane implements ActionListener, KeyListene
     //    JButton a = new JButton("a");
 	//a.addActionListener(new ActionListener() {
 	 //   public void actionPerformed(ActionEvent e) {
-	 //       methodForA();
+	 // if play= methodForA(); 
+	 //    masterspeed +10
+	//if play= methodForB(); 
+	//		masterspeed +20
+	//if play= methodForC(); 
+		//		masterspeed +30
+	
+	//if play= methodForD(); 
+			//		masterspeed +0
+	// 
 	//    }
 	// });
-
+ 
+	
 	
  // }
 }
